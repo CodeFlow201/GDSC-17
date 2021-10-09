@@ -1,7 +1,7 @@
 public class solution{
 
     // lets say we have to find 3 in a m x n matrix
-// matrix = [1,3,5,7]
+// Test case.1 matrix = [1,3,5,7]
     // [10,11,16,20]
     // [23,30,34,60]
     // 1. first we find the length of rows and coloumns
@@ -10,6 +10,10 @@ public class solution{
     // 4. how can we know where to move left or right if we dont have the mid_point(element)
     // 5. Then we have to find the mid_point which is the element on the mid point, so we do matrix[mid/cols][mid%cols]
     // 6. if we find the target we return true otherwise we move left or right based on the element
+    
+//    Test case 2. matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
+//     ans should be false
+//     Time complexity should be O(logn) and space complexity is constant O(1)
 
 
 
